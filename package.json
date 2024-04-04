@@ -1,5 +1,5 @@
 {
-  "name": "taitd-ui",
+  "name": "@taitd/design-system",
   "version": "1.0.1",
   "type": "module",
   "description": "Design system for Taitd",
@@ -9,7 +9,12 @@
     "build": "npx rollup -c"
   },
   "keywords": [],
-  "author": "Trinh Dinh Tai",
+  "author": {
+    "name": "Trịnh Đình Tài",
+    "email": "taitd153.dev@gmail.com",
+    "url": "https://taitd.io.vn"
+  },
+  "repository": "https://github.com/trinhdinhtai/taitd-design-system",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
