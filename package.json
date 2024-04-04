@@ -1,6 +1,6 @@
 {
   "name": "@trinhdinhtai/design-system",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Design system for Taitd",
   "main": "dist/index.js",
