@@ -1,6 +1,6 @@
 {
   "name": "taitd-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Design system for Taitd",
   "main": "dist/index.js",
