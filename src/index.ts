@@ -1,2 +1,1 @@
-export * from './components/button';
-export * from './hooks/counter';
+export { default as Button } from './components/button';

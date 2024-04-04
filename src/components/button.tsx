@@ -1,11 +1,12 @@
 import * as React from 'react';
 import { ReactNode } from 'react';
 
-type PropsType = {
+type ButtonProps = {
   children: ReactNode;
   onClick?: () => void;
 };
-const Button = ({ children, onClick }: PropsType) => {
+
+export default function Button({ children, onClick }: ButtonProps) {
   return (
     <button
       onClick={onClick}
@@ -22,6 +23,4 @@ const Button = ({ children, onClick }: PropsType) => {
       {children}
     </button>
   );
-};
-
-export { Button };
+}
