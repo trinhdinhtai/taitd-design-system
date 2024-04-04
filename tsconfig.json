@@ -1,25 +1,19 @@
 {
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.test.*"],
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "declaration": true,
-    "declarationDir": "dist/types",
-    "downlevelIteration": true,
-    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",                                
+    "esModuleInterop": true,                                                     
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "lib": ["dom", "es2022"],
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "outDir": "dist/types",
-    "resolveJsonModule": true,
+    "strict": true,                                    
     "skipLibCheck": true,
-    "strict": true,
-    "target": "es5",
-    "types": ["@testing-library/jest-dom"]
+    "rootDir": ".",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "types",
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true
   }
 }
