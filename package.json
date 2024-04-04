@@ -1,6 +1,6 @@
 {
   "name": "@trinhdinhtai/ui",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "Design system for Taitd",
   "type": "module",
   "main": "dist/cjs/index.js",
@@ -11,7 +11,7 @@
   "repository": "https://github.com/trinhdinhtai/taitd-design-system",
   "license": "MIT",
   "scripts": {
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [],
   "author": {

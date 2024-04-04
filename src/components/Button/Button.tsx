@@ -1,10 +1,10 @@
-import React, { FC, ReactNode } from "react";
+import React, { ReactNode } from "react";
 
-interface Props {
-  children: ReactNode | ReactNode[];
+interface ButtonProps {
+  children: ReactNode;
 }
 
-const Button: FC<Props> = ({ children }) => {
+export default function Button({ children }: ButtonProps) {
   return (
     <button
       style={{
@@ -14,6 +14,4 @@ const Button: FC<Props> = ({ children }) => {
       {children}
     </button>
   );
-};
-
-export default Button;
+}
