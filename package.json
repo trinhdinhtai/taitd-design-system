@@ -4,6 +4,7 @@
   "description": "The UI components for trinhdinhtai's projects",
   "type": "module",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
