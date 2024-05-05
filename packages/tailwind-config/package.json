@@ -1,0 +1,13 @@
+{
+  "name": "@trinhdinhtai/tailwind-config",
+  "version": "0.0.0",
+  "main": "tailwind.config.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
