@@ -12,6 +12,12 @@ importers:
         specifier: ^1.2.8
         version: 1.2.8(react@18.2.0)
     devDependencies:
+      '@trinhdinhtai/tailwind-config':
+        specifier: ^0.0.0
+        version: 0.0.0
+      '@trinhdinhtai/tsconfig':
+        specifier: ^0.0.0
+        version: 0.0.0
       '@types/react':
         specifier: ^18.2.74
         version: 18.2.74
@@ -295,6 +301,12 @@ packages:
     resolution: {integrity: sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==}
     peerDependencies:
       react: '>= 16.3.0'
+
+  '@trinhdinhtai/tailwind-config@0.0.0':
+    resolution: {integrity: sha512-3NOJgcJtfkBi7x9IJacUY4SJsik2zeHiiUwAgpp+iO1WFVRMj+jLz3omgqdp+3ZC24sLCgAd8niPaXMu2uA0gw==}
+
+  '@trinhdinhtai/tsconfig@0.0.0':
+    resolution: {integrity: sha512-0aCDW/AvtT4wvOPDpZFga3exdnblUrhk6LTcQk3RjJc7KQhzarYz1cIk6t4LYfrtbychDMEWOu7c7x4HBrL63A==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1026,6 +1038,10 @@ snapshots:
   '@stitches/react@1.2.8(react@18.2.0)':
     dependencies:
       react: 18.2.0
+
+  '@trinhdinhtai/tailwind-config@0.0.0': {}
+
+  '@trinhdinhtai/tsconfig@0.0.0': {}
 
   '@types/estree@1.0.5': {}
 

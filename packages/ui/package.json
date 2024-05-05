@@ -21,6 +21,8 @@
     "url": "https://taitd.io.vn"
   },
   "devDependencies": {
+    "@trinhdinhtai/tailwind-config": "^0.0.0",
+    "@trinhdinhtai/tsconfig": "^0.0.0",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.24",
     "react": "^18.2.0",
